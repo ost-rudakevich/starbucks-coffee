@@ -1,0 +1,561 @@
+{
+  "coffee": [
+    {
+      "id": 1,
+      "name": "Cookie & Cream",
+      "slug": "cookie-and-cream",
+      "images": [
+        "/products/coffee/cookie-and-cream/150-cookie-and-cream.png",
+        "/products/coffee/cookie-and-cream/200-cookie-and-cream.png",
+        "/products/coffee/cookie-and-cream/250-cookie-and-cream.png"
+      ],
+      "price": 9,
+      "nutritionalInfo": [
+        {
+          "name": "Total Fat",
+          "grams": "19g"
+        },
+        {
+          "name": "Saturated Fat",
+          "grams": "13g"
+        },
+        {
+          "name": "Trans Fat",
+          "grams": "0.5g"
+        }
+      ],
+      "variations": [
+        {
+          "name": "Size",
+          "variants": [
+            "Tall",
+            "Grande",
+            "Venti"
+          ]
+        },
+        {
+          "name": "Milk",
+          "variants": [
+            "Nonfat Milk",
+            "Coconut",
+            "Soy"
+          ]
+        },
+        {
+          "name": "Topping",
+          "variants": [
+            "Chocolate",
+            "Mocha Drizzle",
+            "Whipped Cream"
+          ]
+        }
+      ],
+      "calories": "480"
+    },
+    {
+      "id": 2,
+      "name": "Caramel Ribbon",
+      "slug": "caramel-ribbon",
+      "images": [
+        "/products/coffee/caramel-ribbon/150-caramel-ribbon.png",
+        "/products/coffee/caramel-ribbon/200-caramel-ribbon.png",
+        "/products/coffee/caramel-ribbon/250-caramel-ribbon.png"
+      ],
+      "price": 8,
+      "nutritionalInfo": [
+        {
+          "name": "Total Fat",
+          "grams": "17g"
+        },
+        {
+          "name": "Saturated Fat",
+          "grams": "10g"
+        },
+        {
+          "name": "Trans Fat",
+          "grams": "0.4g"
+        }
+      ],
+      "variations": [
+        {
+          "name": "Size",
+          "variants": [
+            "Tall",
+            "Grande",
+            "Venti"
+          ]
+        },
+        {
+          "name": "Milk",
+          "variants": [
+            "Nonfat Milk",
+            "Coconut",
+            "Soy"
+          ]
+        },
+        {
+          "name": "Topping",
+          "variants": [
+            "Chocolate",
+            "Mocha Drizzle",
+            "Whipped Cream"
+          ]
+        }
+      ],
+      "calories": "470"
+    },
+    {
+      "id": 3,
+      "name": "Toffee Honeycomb",
+      "slug": "toffee-honeycomb",
+      "images": [
+        "/products/coffee/toffee-honeycomb/150-toffee-honeycomb.png",
+        "/products/coffee/toffee-honeycomb/200-toffee-honeycomb.png",
+        "/products/coffee/toffee-honeycomb/250-toffee-honeycomb.png"
+      ],
+      "price": 10,
+      "nutritionalInfo": [
+        {
+          "name": "Total Fat",
+          "grams": "20g"
+        },
+        {
+          "name": "Saturated Fat",
+          "grams": "15g"
+        },
+        {
+          "name": "Trans Fat",
+          "grams": "0.6g"
+        }
+      ],
+      "variations": [
+        {
+          "name": "Size",
+          "variants": [
+            "Tall",
+            "Grande",
+            "Venti"
+          ]
+        },
+        {
+          "name": "Milk",
+          "variants": [
+            "Nonfat Milk",
+            "Coconut",
+            "Soy"
+          ]
+        },
+        {
+          "name": "Topping",
+          "variants": [
+            "Chocolate",
+            "Mocha Drizzle",
+            "Whipped Cream"
+          ]
+        }
+      ],
+      "calories": "550"
+    },
+    {
+      "id": 4,
+      "name": "Matcha Crème",
+      "slug": "matcha-crème",
+      "images": [
+        "/products/coffee/matcha-crème/150-matcha-crème.png",
+        "/products/coffee/matcha-crème/200-matcha-crème.png",
+        "/products/coffee/matcha-crème/250-matcha-crème.png"
+      ],
+      "price": 5,
+      "nutritionalInfo": [
+        {
+          "name": "Total Fat",
+          "grams": "15g"
+        },
+        {
+          "name": "Saturated Fat",
+          "grams": "9g"
+        },
+        {
+          "name": "Trans Fat",
+          "grams": "0.1g"
+        }
+      ],
+      "variations": [
+        {
+          "name": "Size",
+          "variants": [
+            "Tall",
+            "Grande",
+            "Venti"
+          ]
+        },
+        {
+          "name": "Milk",
+          "variants": [
+            "Nonfat Milk",
+            "Coconut",
+            "Soy"
+          ]
+        },
+        {
+          "name": "Topping",
+          "variants": [
+            "Chocolate",
+            "Mocha Drizzle",
+            "Whipped Cream"
+          ]
+        }
+      ],
+      "calories": "340"
+    },
+    {
+      "id": 5,
+      "name": "Chai Crèamy",
+      "slug": "chai-crèamy",
+      "images": [
+        "/products/coffee/chai-crèamy/150-chai-crèamy.png",
+        "/products/coffee/chai-crèamy/200-chai-crèamy.png",
+        "/products/coffee/chai-crèamy/250-chai-crèamy.png"
+      ],
+      "price": 5,
+      "nutritionalInfo": [
+        {
+          "name": "Total Fat",
+          "grams": "15g"
+        },
+        {
+          "name": "Saturated Fat",
+          "grams": "10g"
+        },
+        {
+          "name": "Trans Fat",
+          "grams": "0.4g"
+        }
+      ],
+      "variations": [
+        {
+          "name": "Size",
+          "variants": [
+            "Tall",
+            "Grande",
+            "Venti"
+          ]
+        },
+        {
+          "name": "Milk",
+          "variants": [
+            "Nonfat Milk",
+            "Coconut",
+            "Soy"
+          ]
+        },
+        {
+          "name": "Topping",
+          "variants": [
+            "Chocolate",
+            "Mocha Drizzle",
+            "Whipped Cream"
+          ]
+        }
+      ],
+      "calories": "340"
+    },
+    {
+      "id": 6,
+      "name": "Mocha De-Light",
+      "slug": "mocha-de-light",
+      "images": [
+        "/products/coffee/mocha-de-light/150-mocha-de-light.png",
+        "/products/coffee/mocha-de-light/200-mocha-de-light.png",
+        "/products/coffee/mocha-de-light/250-mocha-de-light.png"
+      ],
+      "price": 11,
+      "nutritionalInfo": [
+        {
+          "name": "Total Fat",
+          "grams": "22g"
+        },
+        {
+          "name": "Saturated Fat",
+          "grams": "16g"
+        },
+        {
+          "name": "Trans Fat",
+          "grams": "0.7g"
+        }
+      ],
+      "variations": [
+        {
+          "name": "Size",
+          "variants": [
+            "Tall",
+            "Grande",
+            "Venti"
+          ]
+        },
+        {
+          "name": "Milk",
+          "variants": [
+            "Nonfat Milk",
+            "Coconut",
+            "Soy"
+          ]
+        },
+        {
+          "name": "Topping",
+          "variants": [
+            "Chocolate",
+            "Mocha Drizzle",
+            "Whipped Cream"
+          ]
+        }
+      ],
+      "calories": "490"
+    }
+  ],
+  "tea": [
+    {
+      "id": 1,
+      "name": "Chai Tea Latte",
+      "slug": "chai-tea-latte",
+      "images": [
+        "/products/tea/chai-tea-latte/150-chai-tea-latte.png",
+        "/products/tea/chai-tea-latte/200-chai-tea-latte.png",
+        "/products/tea/chai-tea-latte/250-chai-tea-latte.png"
+      ],
+      "price": 6,
+      "nutritionalInfo": [
+        {
+          "name": "Total Fat",
+          "grams": "11g"
+        },
+        {
+          "name": "Saturated Fat",
+          "grams": "12g"
+        },
+        {
+          "name": "Trans Fat",
+          "grams": "0.2g"
+        }
+      ],
+      "variations": [
+        {
+          "name": "Size",
+          "variants": [
+            "Tall",
+            "Grande",
+            "Venti"
+          ]
+        },
+        {
+          "name": "Milk",
+          "variants": [
+            "Nonfat Milk",
+            "Coconut",
+            "Soy"
+          ]
+        },
+        {
+          "name": "Topping",
+          "variants": []
+        }
+      
+      ],
+      "calories": "80"
+    },
+    {
+      "id": 2,
+      "name": "Chai Tea",
+      "slug": "chai-tea",
+      "images": [
+        "/products/tea/chai-tea/150-chai-tea.png",
+        "/products/tea/chai-tea/200-chai-tea.png",
+        "/products/tea/chai-tea/250-chai-tea.png"
+      ],
+      "price": 4,
+      "nutritionalInfo": [
+        {
+          "name": "Total Fat",
+          "grams": "8g"
+        },
+        {
+          "name": "Saturated Fat",
+          "grams": "9g"
+        },
+        {
+          "name": "Trans Fat",
+          "grams": "0.2g"
+        }
+      ],
+      "variations": [
+        {
+          "name": "Size",
+          "variants": [
+            "Tall",
+            "Grande",
+            "Venti"
+          ]
+        },
+        {
+          "name": "Milk",
+          "variants": [
+            "Nonfat Milk",
+            "Coconut",
+            "Soy"
+          ]
+        },
+        {
+          "name": "Topping",
+          "variants": []
+        }
+      
+      ],
+      "calories": "60"
+    },
+    {
+      "id": 3,
+      "name": "Matcha Tea Latte",
+      "slug": "matcha-tea-latte",
+      "images": [
+        "/products/tea/matcha-tea-latte/150-matcha-tea-latte.png",
+        "/products/tea/matcha-tea-latte/200-matcha-tea-latte.png",
+        "/products/tea/matcha-tea-latte/250-matcha-tea-latte.png"
+      ],
+      "price": 7,
+      "nutritionalInfo": [
+        {
+          "name": "Total Fat",
+          "grams": "15g"
+        },
+        {
+          "name": "Saturated Fat",
+          "grams": "11g"
+        },
+        {
+          "name": "Trans Fat",
+          "grams": "0.7g"
+        }
+      ],
+      "variations": [
+        {
+          "name": "Size",
+          "variants": [
+            "Tall",
+            "Grande",
+            "Venti"
+          ]
+        },
+        {
+          "name": "Milk",
+          "variants": []
+        },
+        {
+          "name": "Topping",
+          "variants": []
+        }
+      
+      ],
+      "calories": "90"
+    },
+    {
+      "id": 4,
+      "name": "Emperors Clouds & Mist",
+      "slug": "emperors-clouds-and-mist",
+      "images": [
+        "/products/tea/emperors-clouds-and-mist/150-emperors-clouds-and-mist.png",
+        "/products/tea/emperors-clouds-and-mist/200-emperors-clouds-and-mist.png",
+        "/products/tea/emperors-clouds-and-mist/250-emperors-clouds-and-mist.png"
+      ],
+      "price": 6,
+      "nutritionalInfo": [
+        {
+          "name": "Total Fat",
+          "grams": "13g"
+        },
+        {
+          "name": "Saturated Fat",
+          "grams": "11g"
+        },
+        {
+          "name": "Trans Fat",
+          "grams": "0.5g"
+        }
+      ],
+      "variations": [
+        {
+          "name": "Size",
+          "variants": [
+            "Tall",
+            "Grande",
+            "Venti"
+          ]
+        },
+        {
+          "name": "Milk",
+          "variants": [
+            "Nonfat Milk",
+            "Coconut",
+            "Soy"
+          ]
+        },
+        {
+          "name": "Topping",
+          "variants": []
+        }
+      
+      ],
+      "calories": "60"
+    },{
+      "id": 5,
+      "name": "Honey Citrus Mint Tea",
+      "slug": "honey-citrus-mint-tea",
+      "images": [
+        "/products/tea/honey-citrus-mint-tea/150-honey-citrus-mint-tea.png",
+        "/products/tea/honey-citrus-mint-tea/200-honey-citrus-mint-tea.png",
+        "/products/tea/honey-citrus-mint-tea/250-honey-citrus-mint-tea.png"
+      ],
+      "price": 8,
+      "nutritionalInfo": [
+        {
+          "name": "Total Fat",
+          "grams": "16g"
+        },
+        {
+          "name": "Saturated Fat",
+          "grams": "14g"
+        },
+        {
+          "name": "Trans Fat",
+          "grams": "0.5g"
+        }
+      ],
+      "variations": [
+        {
+          "name": "Size",
+          "variants": [
+            "Tall",
+            "Grande",
+            "Venti"
+          ]
+        },
+        {
+          "name": "Milk",
+          "variants": [
+            "Nonfat Milk",
+            "Coconut",
+            "Soy"
+          ]
+        },
+        {
+          "name": "Topping",
+          "variants": []
+        }
+      
+      ],
+      "calories": "60"
+    }
+]
+}
+
+
+

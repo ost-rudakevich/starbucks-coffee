@@ -1,0 +1,9 @@
+.layout {
+  @apply flex flex-col h-full pl-16 pt-6;
+
+  .outlet {
+    @apply h-full;
+  }
+}
+
+@import 'MediaLayout.module';

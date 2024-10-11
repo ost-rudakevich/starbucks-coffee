@@ -1,0 +1,30 @@
+.title {
+  @apply -mt-28 flex flex-col justify-center items-center;
+
+  .box {
+    @apply border-b border-beige;
+
+    > img {
+      @apply h-52 w-28 pb-2;
+    }
+  }
+
+  .name {
+    @apply text-xl font-bold text-dark-beige tracking-normal mt-4;
+  }
+
+  &-active {
+    @apply -mt-28 flex flex-col justify-center items-center gap-y-2;
+    .box {
+      @apply flex items-end justify-center gap-x-8;
+
+      > img {
+        @apply h-52 w-118;
+      }
+    }
+
+    .name-active {
+      @apply text-white text-xl tracking-normal font-extrabold;
+    }
+  }
+}

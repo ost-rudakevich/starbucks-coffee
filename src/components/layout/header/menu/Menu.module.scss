@@ -1,0 +1,27 @@
+.menu {
+  @apply flex items-center;
+
+  img {
+    @apply w-28 h-28;
+  }
+
+  nav {
+    @apply flex gap-x-12 pl-16;
+
+    a {
+      @apply relative;
+
+      &::after {
+        content: '';
+        @apply w-0 absolute left-0 -bottom-3 h-0.5 bg-red 
+        transition-all duration-300;
+      }
+
+      &:hover::after {
+        @apply w-full;
+      }
+    }
+  }
+}
+
+@import 'MediaMenu.module';

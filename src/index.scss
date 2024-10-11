@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+  @apply m-0 p-0;
+  font-family: Karla;
+  letter-spacing: 4px;
+}
+
+@media (max-width: 520px) {
+  * {
+    @apply tracking-widest;
+  }
+}
+
+::-webkit-scrollbar {
+  @apply bg-white w-2;
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 3px 0 0 0 red;
+}
+
+::-webkit-scrollbar-track {
+  @apply rounded-full my-3 text-green;
+}

@@ -1,0 +1,33 @@
+.search-wrapper {
+  @apply w-2/6 flex;
+
+  .search {
+    @apply border-beige;
+
+    > input {
+      @apply border-b-2 px-1;
+
+      &:focus {
+        @apply border-green ring-0;
+      }
+    }
+
+    svg {
+      @apply w-6 h-6 text-beige;
+    }
+  }
+}
+
+.remove-clear-btn {
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-clear-button {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  &::-ms-clear {
+    display: none;
+  }
+}
+
+@import 'MediaSearch.module';

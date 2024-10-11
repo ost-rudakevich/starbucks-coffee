@@ -1,0 +1,21 @@
+.item {
+  @apply w-64 h-360 rounded-3xl bg-gray px-5 pt-0 flex flex-col 
+  justify-center items-center shadow-lg shadow-beige gap-3;
+  transition: transform 0.6s ease;
+
+  &.active {
+    @apply bg-green rounded-3xl px-3 flex flex-col justify-around 
+    items-center bg-contain bg-no-repeat shadow-lg shadow-dark-green;
+    background-image: url('/pattern.jpg');
+    background-position: 100% -129px;
+    transition: transform 0.4s ease;
+    transform: scale(1.1);
+
+    .not-size {
+      @apply -mt-3 text-xs tracking-wide bg-red px-5 rounded-xl
+       text-white absolute;
+    }
+  }
+}
+
+/* w-72 h-400 */

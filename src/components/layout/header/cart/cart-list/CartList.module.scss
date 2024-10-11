@@ -1,0 +1,24 @@
+.empty-cart-list {
+  @apply h-full flex flex-col justify-center 
+  items-center gap-y-10;
+
+  > svg {
+    @apply h-24 w-24;
+  }
+
+  > span {
+    @apply text-4xl;
+  }
+}
+
+.cart-footer {
+  @apply flex gap-x-4;
+
+  > span:first-child {
+    @apply text-lg;
+  }
+
+  > span:last-child {
+    @apply font-medium text-xl;
+  }
+}

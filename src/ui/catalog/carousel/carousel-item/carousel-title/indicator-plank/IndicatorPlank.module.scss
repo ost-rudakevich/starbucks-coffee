@@ -1,0 +1,20 @@
+.plank {
+  @apply w-24 h-4 bg-white flex justify-center items-start;
+  margin-top: 1.2px;
+
+  .wrapper {
+    @apply w-16 h-full bg-black flex justify-around items-center rounded-full;
+
+    > div {
+      @apply rounded-full;
+    }
+
+    .circle {
+      @apply bg-beige w-1.5 h-1.5;
+
+      &.active {
+        @apply bg-white w-2 h-2;
+      }
+    }
+  }
+}

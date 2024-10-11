@@ -1,0 +1,35 @@
+.nutrients {
+  @apply mt-5 text-beige leading-7 w-full px-2;
+
+  .calories {
+    @apply flex justify-between ml-2 tracking-tighter;
+
+    > span {
+      @apply tracking-wider;
+    }
+  }
+}
+
+.variants {
+  @apply flex flex-col justify-between h-28 w-full;
+
+  .select-wrapper {
+    @apply flex justify-between items-end;
+
+    > div {
+      @apply w-44;
+    }
+
+    > span {
+      @apply text-lg font-bold tracking-wider text-white;
+    }
+
+    option {
+      @apply bg-green;
+    }
+  }
+
+  .chakra-select__wrapper {
+    @apply bg-red;
+  }
+}

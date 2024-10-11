@@ -1,0 +1,12 @@
+.catalog {
+  @apply flex flex-col justify-center items-center pt-3 pb-10 w-full
+  gap-y-36;
+
+  .reward {
+    @apply text-red w-full flex justify-start pl-32;
+
+    > img {
+      @apply w-36 h-11;
+    }
+  }
+}

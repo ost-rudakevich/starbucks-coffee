@@ -1,0 +1,33 @@
+.cart-item {
+  @apply flex justify-between items-center gap-x-10 
+   py-5 pr-8 w-full border-b border-beige;
+
+  .item-details {
+    @apply flex gap-x-10;
+
+    > img {
+      @apply h-36 w-20;
+    }
+
+    .info {
+      @apply flex flex-col justify-between items-start w-60 pt-3;
+
+      .name {
+        @apply text-lg h-14 font-medium flex-wrap overflow-hidden 
+        tracking-wider w-full;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+
+      .toppings {
+        @apply flex flex-col text-sm font-light text-beige;
+      }
+    }
+  }
+
+  .remove {
+    @apply w-auto text-sm bg-red text-white rounded-lg 
+    py-1 px-3 tracking-normal;
+  }
+}

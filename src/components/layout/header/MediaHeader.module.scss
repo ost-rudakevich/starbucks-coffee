@@ -1,0 +1,32 @@
+@media (max-width: 340px) {
+  .header {
+    @apply px-1;
+  }
+}
+
+@media (min-width: 340px) and (max-width: 540px) {
+  .header {
+    @apply px-2;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 670px) {
+  .header {
+    @apply px-2;
+  }
+}
+
+@media (min-width: 670px) and (max-width: 820px) {
+  .header {
+    @apply px-0;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1279px) {
+  .header {
+    @apply px-1;
+  }
+}
+
+@media (min-width: 1900px) {
+}

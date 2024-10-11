@@ -1,0 +1,28 @@
+.wrapper-cart {
+  @apply flex justify-center items-center;
+
+  .heading {
+    @apply flex items-center gap-x-4;
+
+    .badge {
+      @apply bg-red rounded-full w-5 h-5 flex 
+      justify-center items-center text-white text-xs tracking-wide;
+    }
+
+    .text {
+      @apply relative;
+    }
+
+    .text::after {
+      content: '';
+      @apply w-0 absolute left-0 -bottom-3 h-0.5 bg-red 
+      transition-all duration-500;
+    }
+
+    .text:hover::after {
+      @apply w-full;
+    }
+  }
+}
+
+@import 'MediaCart.module';

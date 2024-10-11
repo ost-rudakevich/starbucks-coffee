@@ -1,0 +1,59 @@
+.product-details {
+  @apply h-full flex justify-center items-center px-10;
+
+  .wrapper {
+    @apply h-1/2 w-1/2 text-white bg-green px-5 py-2 rounded-lg overflow-y-auto;
+
+    h1 {
+      @apply text-white text-3xl;
+    }
+  }
+
+  .name {
+    @apply mb-24;
+  }
+
+  .gallery {
+    @apply flex h-1/2 w-auto items-end gap-x-10 bg-contain bg-no-repeat;
+
+    > img {
+      @apply w-48 h-80;
+    }
+  }
+}
+
+.details {
+  @apply text-white flex text-lg gap-x-24;
+}
+
+.details img {
+  @apply w-56 h-400;
+}
+
+.desc h1 {
+  @apply font-bold text-xl mb-7;
+}
+
+.desc {
+  @apply h-400 w-80 px-6 py-4 rounded-2xl bg-green;
+}
+
+.info {
+  @apply flex flex-col gap-y-3;
+}
+
+.info div:not(.size, .size-item) {
+  @apply w-full flex justify-between;
+}
+
+.size {
+  @apply flex flex-col h-28;
+}
+
+.size-item {
+  @apply w-full h-auto flex flex-col items-end text-base mb-5;
+}
+
+.btn {
+  @apply bg-white text-green rounded-2xl py-0.5 px-11 mt-2 ml-6;
+}
